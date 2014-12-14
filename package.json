@@ -1,0 +1,25 @@
+
+{
+	"name": "ssdom.s",
+	"version": "0.1.0",
+	
+	"author": "Alexander van der Grinten",
+	"description": "server-side DOM implementation",
+	
+	"main": "./lib/index.js",
+	"files": [
+		"lib/index.js",
+		"lib/selectors.js",
+		"lib/dom.js"
+	],
+
+	"dependencies": {
+		"parsecomb.js": "~0.1"
+	},
+	
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/avdgrinten/ssdom.js"
+	}
+}
+
