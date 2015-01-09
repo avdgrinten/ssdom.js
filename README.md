@@ -21,3 +21,23 @@ in order to serialize it and send it to a web browser.
 - Simulate CSS stylesheets and other visual features
 - Ability to run JavaScript inside a document
 
+### Tutorial
+
+The following snippet shows how to create html documents and serialize them to strings.
+
+```javascript
+var ssdom = require('ssdom.js');
+
+var domImpl = ssdom.newImplementation();
+
+var document = new domImpl.createHTMLDocument();
+
+var p = document.createElement('p');
+p.textContent = 'Hello world!';
+
+var body = document.querySelector('body');
+body.appendChild(p);
+
+console.log(ssdom.stringify(document));
+```
+
