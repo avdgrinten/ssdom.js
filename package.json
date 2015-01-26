@@ -1,7 +1,7 @@
 
 {
 	"name": "ssdom.js",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	
 	"author": "Alexander van der Grinten",
 	"description": "server-side DOM implementation",
